@@ -6,12 +6,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="Assets\**" />
-    <EmbeddedResource Remove="Assets\**" />
-    <None Remove="Assets\**" />
-  </ItemGroup>
-
-  <ItemGroup>
     <Compile Remove="Migrations\20201008215359_InitialNoRelations.cs" />
   </ItemGroup>
 
@@ -27,7 +21,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Data\" />
     <Folder Include="API\" />
   </ItemGroup>
 
