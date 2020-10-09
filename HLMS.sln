@@ -4,6 +4,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 15.0.28307.1259
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hlm-cli", "hlm-cli\hlm-cli.csproj", "{4B7A8B04-B7B5-4632-AE05-0EC885D98E7B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{96DA4285-66D3-49A5-B275-51535A70D256} = {96DA4285-66D3-49A5-B275-51535A70D256}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hlm-datalayer", "hlm-datalayer\hlm-datalayer.csproj", "{96DA4285-66D3-49A5-B275-51535A70D256}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +20,10 @@ Global
 		{4B7A8B04-B7B5-4632-AE05-0EC885D98E7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4B7A8B04-B7B5-4632-AE05-0EC885D98E7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4B7A8B04-B7B5-4632-AE05-0EC885D98E7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96DA4285-66D3-49A5-B275-51535A70D256}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96DA4285-66D3-49A5-B275-51535A70D256}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96DA4285-66D3-49A5-B275-51535A70D256}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96DA4285-66D3-49A5-B275-51535A70D256}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
